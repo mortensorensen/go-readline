@@ -10,6 +10,8 @@ package readline
 /*
 #cgo darwin CFLAGS: -I/usr/local/opt/readline/include
 #cgo darwin LDFLAGS: -L/usr/local/opt/readline/lib
+#cgo amd64 CFLAGS: -I/usr/include/readline
+#cgo amd64 LDFLAGS: -L/usr/lib
 #cgo LDFLAGS: -lreadline
 
 #include <stdio.h>
